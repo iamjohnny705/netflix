@@ -1,0 +1,160 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+        color: rgb(224, 9, 9);
+        font-size: 45px;
+    }
+
+    button{
+        border: none;
+        background-color:  rgb(224, 9, 9);
+        color: rgb(217, 219, 216);
+        font-size: 16px;
+        padding: 10px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        color: black;
+    }
+}
+
+.topic{
+    text-align: center;
+    font-size: 28px;
+
+    p0{
+        font-size: 19px;
+        
+    }
+
+    p1{
+        font-size: 20px;
+    }
+}
+
+.container{
+    text-align: center;
+}
+
+#button{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#button:hover{
+    color: black;
+}
+
+.email-input{
+    width: 300px;
+    padding: 15px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.email-input::placeholder{
+    color: #ccc;
+}
+
+.dropdown-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+select{
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+select:hover{
+    border-color: #e50914;
+}
+
+.links{
+    a{
+        color: #fff;
+    }
+}
+
+.Questions{
+    h3{
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    #question-one h4{
+        background-color: #5f5959;
+        padding: 10px 10px;
+        width: 400px;
+        cursor: pointer;
+        margin-left: 160px;
+    }
+}
+
+.packages{
+    h3{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 10000;
+    }
+    #features{
+        background-color: #660643;
+        width: 280px;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+        display: inline-block;
+    }
+}
+
+.for-more{
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+
+.speech{
+    text-align: center;
+}
+
+.ending{
+    text-align: center;
+    font-size: 12px;
+}
