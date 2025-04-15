@@ -45,6 +45,10 @@ body{
     }
 }
 
+#image{
+    cursor: pointer;
+}
+
 .container{
     text-align: center;
 }
